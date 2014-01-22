@@ -1,0 +1,15 @@
+name:           Center for Spatial and Textual Analysis
+description:    The Center for Spatial and Textual Analysis (CESTA) is comprised of the Spatial History Project, Humanities + Design, and the Literary Lab. This interdisciplinary collective of labs operates independently of any one particular home department, and is organizationally housed within the Dean of Research at Stanford University.
+meta_description: "Center for Spatial and Textual Analysis"
+
+destination:    ./_site
+plugins:        ./_plugins
+layouts:        ./_layouts
+
+pygments:       true
+
+permalink:      /:year/:month/:day/:title
+markdown:       kramdown
+markdown_ext:   md
+
+baseurl:        /
