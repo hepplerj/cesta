@@ -1,0 +1,152 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <link href="/css/style.css" rel="stylesheet" type="text/css">
+
+<!-- Stanford branding -->
+<link href="https://www.stanford.edu/su-identity/css/su-identity.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" href="https://www.stanford.edu/su-identity/css/ie/ie8.css" />
+<![endif]-->
+<!--[if IE 7]>
+  <link rel="stylesheet" type="text/css" href="https://www.stanford.edu/su-identity/css/ie/ie7.css" />
+<![endif]-->
+
+</head>
+<body>
+
+<div id="su-wrap"> <!-- #su-wrap start -->
+  <div id="su-content"> <!-- #su-content start -->
+
+        <!-- Brandbar snippet start -->
+        <div id="brandbar">
+          <div class="container">
+            <a href="http://www.stanford.edu">
+              <img src="https://www.stanford.edu/su-identity/images/brandbar-stanford-logo@2x.png" alt="Stanford University" width="152" height="23">
+            </a>
+          </div> <!-- .container end -->
+        </div> <!-- #brandbar end -->
+        <!-- Brandbar snippet end -->
+
+<div id="header">
+  <div class="container">
+    <img src="/images/wordmark-red@2x.png" alt="Stanford University" width="180" height="40">
+    <h1>{{ site.name }}</h1>
+
+
+  <div id="nav">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">People</a></li>
+      <li><a href="#">Labs</a></li>
+      <li><a href="#">Projects</a></li>
+    </ul>
+  </div>
+  </div>
+</div>
+
+<div role="main">
+
+        <div id="overview">
+
+            <div class="span12" id="feature-banner">
+                <div id="feature-banner-text">
+                    <h3>{{ site.name }}</h3>
+                    <p>{{ site.description }}</p>
+                </div>
+            </div>
+            <img src="/images/header_temp.png" width="1170" height="350" />
+
+        </div>
+
+        <div class="span8">
+
+        {{ content }}
+
+        </div>
+
+        <br/>
+
+        <div class="span4">
+        <div id="event-list">
+        <h3>Upcoming Events</h3>
+                <p>{% render_events %}</p>
+            </div>
+        </div>
+
+        <div style="clear: both;"></div>
+
+        <div class="content-row">
+            <h3>Current and Recent Projects</h3>
+            <div class="span4">
+                <a href="/projects/post.html"><h4>Geography of the Post</h4>
+                <img class="project" src="/images/proj_geography.png"/></a>
+                <p>From the end of the Civil War until the close of the nineteenth century, the United States Postal System grew into a vast communications network. The Post was one of the century's largest spatial systems, with more than 75,000 offices connecting communities scattered across the continent. Geography of the Post maps this behemoth network on its western periphery: where it spread, how it operated, and its role in shaping the space and place of the region.</p>
+                <p><a class="btn" href="/projects/post.html">Read More</a></p>
+            </div>
+
+            <div class="span4">
+                <a href="/projects/prussia.html"><h4>Chinese Railroad Workers</h4>
+                <img class="project" src="/images/proj_railroad.png"/></a>
+                <p>Between 1865 and 1869, thousands of Chinese migrants toiled at a grueling pace and in perilous working conditions to help construct America’s First Transcontinental Railroad.  The Chinese Railroad Workers in North America Project seeks to give a voice to the Chinese migrants whose labor on the Transcontinental Railroad helped to shape the physical and social landscape of the American West. The Project coordinates research in the United States and Asia in order to create an on-line digital archive available to all. </p>
+                <p><a class="btn" href="/projects/railroad.html">Read More</a></p>
+            </div>
+
+            <div class="span4">
+                <a href="/projects/spatialhistory.html"><h4>Spatial History Project</h4>
+                <img class="project" src="/images/proj_spatialhist.png"/></a>
+                <p>The Spatial History Project at Stanford University is a place for a collaborative community of scholars to engage in creative visual analysis to further research in the field of history.</p>
+                <p><a class="btn" href="/projects/spatialhistory.html">Read More</a></p>
+            </div>
+        </div>
+
+
+
+
+
+<!-- end -->
+</div>
+
+  </div> <!-- #su-content end -->
+</div> <!-- #su-wrap end -->
+
+<!-- Global footer snippet start -->
+<div id="global-footer">
+  <div class="container">
+    <div class="row">
+      <div id="bottom-logo" class="span2">
+        <a href="http://www.stanford.edu">
+          <img src="https://www.stanford.edu/su-identity/images/footer-stanford-logo@2x.png" alt="Stanford University" width="105" height="49"/>
+        </a>
+      </div>
+      <!-- #bottom-logo end -->
+      <div id="bottom-text" class="span10">
+        <ul>
+          <li class="home"><a href="http://www.stanford.edu">SU Home</a></li>
+          <li class="maps alt"><a href="http://visit.stanford.edu/plan/maps.html">Maps &amp; Directions</a></li>
+          <li class="search-stanford"><a href="http://www.stanford.edu/search/">Search Stanford</a></li>
+          <li class="terms alt"><a href="http://www.stanford.edu/site/terms.html">Terms of Use</a></li>
+          <li class="copyright"><a href="http://www.stanford.edu/site/copyright.html">Copyright Complaints</a></li>
+        </ul>
+      </div> <!-- .bottom-text end -->
+      <div class="clear"></div>
+      <p class="copyright vcard">&copy; <span class="fn org">Stanford University</span>, <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span> </span></p>
+    </div> <!-- .row end -->
+  </div> <!-- .container end -->
+</div> <!-- global-footer end -->
+<!-- Global footer snippet end -->
+
+<script type="text/javascript">
+
+// Google Analytics
+
+</script>
+
+</body>
+</html>

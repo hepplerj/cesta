@@ -235,6 +235,7 @@ form {
 #overview {
     display: block;
     position: relative;
+    margin-bottom: 45px;
 }
 
 #overview img {
@@ -325,6 +326,61 @@ form {
 .span12 {
     width: 1170px;
 }
+
+.postcard-left {
+  clear: both;
+  display: table;
+  margin-bottom: 15px;
+  position: relative;
+  float: left;
+}
+
+#event-list .event-date {
+  vertical-align: top;
+  width: 60px;
+  padding-right: 15px;
+}
+
+#event-list .event-date .event-year {
+  font-weight: 200;
+  display: block;
+  text-align: center;
+  font-size: .8em;
+  line-height: 0.8;
+  padding-top: 5px;
+}
+
+#event-list .event-date .event-month {
+  padding-left: 3px;
+  font-weight: 400;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  line-height: 1.1;
+  letter-spacing: 1px;
+}
+
+#event-list .event-date .event-day {
+  font-weight: 200;
+  display: block;
+  text-align: center;
+  font-size: 2.2em;
+  color: #820000;
+  line-height: 0.8;
+}
+
+.event-text {
+  display: table-cell;
+  position: relative;
+  text-align: left;
+  font-size: 14px;
+}
+
+.timestamp {
+  color: #696969;
+}
+
 
 /* Menu */
 
@@ -454,7 +510,7 @@ div[role=main] {
   width: 94%;
   max-width: 920px;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 #main a {

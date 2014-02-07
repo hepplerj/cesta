@@ -1,4 +1,4 @@
-# Stanford Digital History
+# CESTA
 # Modified from Jason A. Heppler:
 # http://github.com/hepplerj/jekyll-blog/Rakefile
 
